@@ -14,7 +14,7 @@ input.onGesture(Gesture.Shake, function () {
         basic.showLeds(`
             . . . . .
             . . . . .
-            # . . . #
+            . # . # .
             . . . . .
             . . . . .
             `)
@@ -24,11 +24,11 @@ input.onGesture(Gesture.Shake, function () {
         }
     } else if (number == 3) {
         basic.showLeds(`
-            . . # . .
             . . . . .
-            . . # . .
             . . . . .
-            . . # . .
+            . # # # .
+            . . . . .
+            . . . . .
             `)
         for (let index = 0; index < 3; index++) {
             music.playTone(262, music.beat(BeatFraction.Quarter))
@@ -36,11 +36,11 @@ input.onGesture(Gesture.Shake, function () {
         }
     } else if (number == 4) {
         basic.showLeds(`
-            # . . . #
             . . . . .
+            . # . # .
             . . . . .
+            . # . # .
             . . . . .
-            # . . . #
             `)
         for (let index = 0; index < 4; index++) {
             music.playTone(262, music.beat(BeatFraction.Quarter))
@@ -48,11 +48,11 @@ input.onGesture(Gesture.Shake, function () {
         }
     } else if (number == 5) {
         basic.showLeds(`
-            # . . . #
             . . . . .
+            . # . # .
             . . # . .
+            . # . # .
             . . . . .
-            # . . . #
             `)
         for (let index = 0; index < 5; index++) {
             music.playTone(262, music.beat(BeatFraction.Quarter))
@@ -60,11 +60,11 @@ input.onGesture(Gesture.Shake, function () {
         }
     } else {
         basic.showLeds(`
-            # . . . #
+            . # . # .
             . . . . .
-            # . . . #
+            . # . # .
             . . . . .
-            # . . . #
+            . # . # .
             `)
         for (let index = 0; index < 6; index++) {
             music.playTone(262, music.beat(BeatFraction.Quarter))
